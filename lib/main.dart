@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(title: Text('WidgetBasics')),
-        body: Center(child: Container(child: MessageFeature()))
+        body: Center(child: Container(child: MessageFeature('What the heck!?')))
       )
     );
   }
